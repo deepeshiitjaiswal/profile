@@ -72,5 +72,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Chandigarh, India",
   phoneNo: "+91-62600-09652",
-  email: "deepeshiitjaiswal@gmail.com",
+  email: "deepeshiitjaiswal786@gmail.com",
 };
