@@ -52,8 +52,18 @@ export const EXPERIENCES = [
     description: `
       Led the creation of Kubernetes-based environments on Azure and AWS. 
       Automated infrastructure deployment using Terraform and Ansible. 
-      Developed CI/CD workflows to streamline application deployment. 
-      Configured Prometheus, Loki, and Kibana for monitoring and log aggregation.
+      Developed CI/CD workflows to streamline application deployment.
+      
+      Worked on EKS network isolation and EFS integration for secure and scalable storage solutions. 
+      Implemented Spot instances in EKS for cost optimization and high availability.
+      
+      Integrated advanced security measures using AWS GuardDuty, CloudTrail, and WAF. 
+      Configured AWS WAF to secure EKS workloads and integrated it with the ALB (Application Load Balancer). 
+      Enabled AWS GuardDuty and CloudTrail for enhanced security monitoring and incident detection. 
+      
+      Implemented security alerting for DDoS attacks and integrated alerts with Slack for real-time notifications.
+      
+      Deployed and integrated complete APM (Application Performance Monitoring) for observability and troubleshooting across the infrastructure.
     `,
     technologies: [
       "Kubernetes",
@@ -64,6 +74,15 @@ export const EXPERIENCES = [
       "Loki",
       "Kibana",
       "Azure",
+      "EKS",
+      "AWS",
+      "GuardDuty",
+      "CloudTrail",
+      "WAF",
+      "ALB",
+      "Spot Instances",
+      "Slack",
+      "APM",
     ],
   },
   {
@@ -186,7 +205,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Chandigarh, India",
+  address: "Noida,UP India",
   phoneNo: "+91-62600-09652",
   email: "deepeshiitjaiswal786@gmail.com",
 };
