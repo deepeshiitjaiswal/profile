@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "Lead DevOps Engineer",
     company: "TietoEVRY",
     description: `Architected and automated multi-cloud infrastructure on AWS, Azure, and GCP. Implemented Kubernetes clusters with advanced monitoring and logging solutions. Designed CI/CD pipelines using Jenkins, GitHub Actions, and Azure DevOps. Integrated Grafana with Prometheus for application performance monitoring and alerting.`,
-    technologies: ["AWS", "Azure", "GCP", "Pulumi", "Kubernetes", "Prometheus", "Grafana", "Terraform","Pulumi"],
+    technologies: ["AWS", "Azure", "GCP", "Docker", "Kafka", "Kubernetes", "Prometheus", "Grafana", "APM" , "Terraform","Pulumi", "Ansible"],
   },
   {
     year: "2021 - 2023",
