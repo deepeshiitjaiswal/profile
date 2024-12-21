@@ -1,76 +1,30 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-
-export const HERO_CONTENT = `I am a passionate DevOps Engineer with over 8 years of experience in automating, architecting, and managing cloud infrastructure. I specialize in leveraging AWS, Azure, and GCP services, Kubernetes orchestration, CI/CD pipelines, and advanced monitoring solutions like Grafana and Prometheus. I thrive on solving complex challenges and creating scalable solutions to streamline workflows and enhance system performance.`
-
-export const ABOUT_TEXT = `With a Bachelor of Engineering (BE) from RGPV University, I bring a solid technical foundation and 8 years of experience as a DevOps Engineer. I have worked extensively on projects spanning cloud platforms like AWS, GCP, and Azure, integrating Kubernetes for container orchestration, and implementing robust CI/CD pipelines. My expertise includes setting up advanced monitoring solutions using Prometheus, Grafana, and Application Performance Monitoring (APM) tools. I am dedicated to staying ahead in the ever-evolving technology landscape and delivering high-quality, scalable solutions for complex challenges.`
-
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Lead DevOps Engineer",
-    company: "TietoEVRY",
-    description: `Architected and automated multi-cloud infrastructure on AWS, Azure, and GCP. Implemented Kubernetes clusters with advanced monitoring and logging solutions. Designed CI/CD pipelines using Jenkins, GitHub Actions, and Azure DevOps. Integrated Grafana with Prometheus for application performance monitoring and alerting.`,
-    technologies: ["AWS", "Azure", "GCP", "Docker", "Kafka", "Kubernetes", "Prometheus", "Grafana", "APM" , "Terraform","Pulumi", "Ansible"],
-  },
-  {
-    year: "2021 - 2023",
-    role: "DevOps Expert",
-    company: "EzopsInc",
-    description: `Led the creation of Kubernetes-based environments on Azure and AWS. Automated infrastructure deployment using Terraform and Ansible. Developed CI/CD workflows to streamline application deployment. Configured Prometheus and Loki for monitoring and log aggregation.`,
-    technologies: ["Kubernetes", "Terraform", "CI/CD", "Ansible", "Prometheus", "Loki", "Azure"],
-  },
-  {
-    year: "2021 - 2021",
-    role: "Cloud DevOps Engineer",
-    company: "Diverse Lynx",
-    description: `Deployed containerized applications on GKE and AKS. Integrated Grafana dashboards with data from Prometheus and CloudWatch for real-time monitoring. Automated security compliance checks using custom Ansible playbooks.`,
-    technologies: ["GCP", "Azure", "AKS", "GKE", "CloudWatch", "Grafana", "Ansible"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "DevOps Engineer",
-    company: "AuthBridge",
-    description: `Designed and maintained AWS-based environments. Built CI/CD pipelines using AWS CodePipeline and Jenkins. Configured ELK stack for centralized logging and Grafana for real-time performance monitoring.`,
-    technologies: ["AWS", "ELK Stack", "Jenkins", "Grafana", "Prometheus"],
-  },
-];
-
 export const PROJECTS = [
   {
     title: "Multi-Cloud Kubernetes Orchestration",
     image: project1,
     description:
-      "Deployed and managed Kubernetes clusters across AWS EKS, Azure AKS, and GCP GKE. Configured Prometheus and Grafana for application monitoring and integrated Loki for log aggregation. Automated infrastructure provisioning using Terraform and Ansible.",
-    technologies: ["AWS", "Azure", "GCP", "Kubernetes", "Terraform", "Grafana", "Prometheus"],
+      "Led the deployment and management of Kubernetes clusters across AWS EKS, Azure AKS, and GCP GKE for a multi-national client. Automated infrastructure provisioning using Terraform and Ansible, reducing deployment time by 40%. Configured Prometheus and Grafana for application monitoring, enabling real-time insights and proactive issue resolution. Integrated Loki and Promtail for centralized log aggregation, improving debugging efficiency by 60%.",
+    technologies: ["AWS", "Azure", "GCP", "Kubernetes", "Terraform", "Grafana", "Prometheus", "Loki"],
   },
   {
     title: "CI/CD Pipeline with APM Integration",
     image: project2,
     description:
-      "Developed robust CI/CD pipelines using Jenkins and GitHub Actions for seamless application deployments. Integrated Application Performance Monitoring (APM) with Grafana and Prometheus for enhanced observability. Automated code quality checks and security scans.",
-    technologies: ["CI/CD", "Jenkins", "GitHub Actions", "Grafana", "Prometheus", "Terraform"],
+      "Designed and implemented robust CI/CD pipelines using Jenkins and GitHub Actions, streamlining application deployments for over 50 microservices. Integrated Application Performance Monitoring (APM) tools with Grafana and Prometheus, enhancing observability and reducing downtime by 25%. Automated code quality checks using SonarQube and integrated security scans, ensuring compliance with industry standards.",
+    technologies: ["CI/CD", "Jenkins", "GitHub Actions", "Grafana", "Prometheus", "SonarQube", "Terraform"],
   },
   {
     title: "Cloud-Native Monitoring System",
     image: project3,
     description:
-      "Implemented a cloud-native monitoring system on AWS and Azure. Designed custom Grafana dashboards to visualize metrics and alerts from Prometheus and CloudWatch. Enabled centralized logging using Loki and Promtail.",
+      "Implemented a comprehensive cloud-native monitoring system across AWS and Azure for a financial services client, handling over 200,000 metrics per minute. Designed custom Grafana dashboards to visualize key performance indicators, enabling faster decision-making. Configured Prometheus and CloudWatch for advanced monitoring and integrated Loki for log centralization, reducing Mean Time to Recovery (MTTR) by 35%.",
     technologies: ["AWS", "Azure", "Grafana", "Prometheus", "Loki", "CloudWatch"],
   },
   {
     title: "E-Commerce Infrastructure on AWS",
     image: project4,
     description:
-      "Architected a scalable e-commerce platform on AWS. Automated infrastructure provisioning with Terraform and configured Kubernetes for container orchestration. Set up monitoring and alerting using Prometheus and Grafana.",
-    technologies: ["AWS", "Terraform", "Kubernetes", "Grafana", "Prometheus"],
+      "Architected a scalable e-commerce platform on AWS for a high-traffic online store with over 1 million daily users. Automated infrastructure provisioning using Terraform, ensuring consistent deployments across development and production environments. Configured Kubernetes for container orchestration, achieving a 99.9% uptime SLA. Implemented Prometheus and Grafana for monitoring and alerting, reducing infrastructure costs by 20% through proactive optimization.",
+    technologies: ["AWS", "Terraform", "Kubernetes", "Grafana", "Prometheus", "Ansible"],
   },
 ];
-
-export const CONTACT = {
-  address: "Chandigarh, India",
-  phoneNo: "+91-62600-09652",
-  email: "deepeshiitjaiswal786@gmail.com",
-};
